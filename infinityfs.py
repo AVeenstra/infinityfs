@@ -14,6 +14,8 @@ allchars = [
     ] + [
         str(chr(x)) for x in range(ord('a'),ord('z')+1)
     ] + [
+        str(x) for x in range(10)
+    ] + [
         str(x) for x in "'!@#$%()[]{};-+"
     ]
 
